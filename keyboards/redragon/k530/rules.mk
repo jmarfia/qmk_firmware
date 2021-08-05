@@ -41,7 +41,7 @@ OPT_DEFS = -O2
 #   comment out to disable the options.
 #
 LTO_ENABLE = no
-BACKLIGHT_ENABLE = no
+BACKLIGHT_ENABLE = YES
 MAGIC_ENABLE = yes
 MAGIC_KEYCODE_ENABLE = yes
 BOOTMAGIC_ENABLE = full # Virtual DIP switch configuration
@@ -52,7 +52,7 @@ COMMAND_ENABLE = no     # Commands for debug and configuration
 SLEEP_LED_ENABLE = no   # Breathing sleep LED during USB suspend
 NKRO_ENABLE = no        # USB Nkey Rollover
 AUDIO_ENABLE = no
-RGBLIGHT_ENABLE = no
+RGBLIGHT_ENABLE = YES
 SERIAL_LINK_ENABLE = no
 WAIT_FOR_USB = no
 CUSTOM_MATRIX = yes
